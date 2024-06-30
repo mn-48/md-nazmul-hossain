@@ -46,6 +46,37 @@
   ======================================================== -->
   </head>
 
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .column {
+        flex: 1;
+        min-width: 250px;
+        max-width: 33%;
+        box-sizing: border-box;
+    }
+    h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    li {
+        margin-bottom: 5px;
+    }
+</style>
+
   <body>
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -329,7 +360,8 @@
         <div class="container">
           <div class="section-title">
             <h2>Skills</h2>
-            <p>
+
+            <!-- <p>
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
               quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
@@ -420,6 +452,87 @@
               </div>
             </div>
           </div>
+ -->
+ <h1>Skills & Technologies</h1>
+ <div class="container">
+     <div class="column">
+         <h2>Backend</h2>
+         <ul>
+             <li>Python</li>
+             <li>Django</li>
+             <li>GraphQL</li>
+             <li>REST Framework</li>
+             <li>Docker</li>
+             <li>AWS</li>
+             <li>Jenkins</li>
+             <li>Kubernetes</li>
+         </ul>
+
+         <h2>Frontend</h2>
+         <ul>
+             <li>HTML, CSS</li>
+             <li>Bootstrap</li>
+             <li>jQuery</li>
+             <li>JavaScript</li>
+             <li>React</li>
+         </ul>
+
+         <h2>Database</h2>
+         <ul>
+             <li>Relational:</li>
+             <li>PostgreSQL</li>
+             <li>SQL</li>
+             <li>SQLite</li>
+             <li>MySQL</li>
+             <li>Non-Relational:</li>
+             <li>MongoDB</li>
+         </ul>
+     </div>
+     
+     <div class="column">
+         <h2>DevOps Tools</h2>
+         <ul>
+             <li>Git</li>
+             <li>GitHub</li>
+             <li>Bitbucket</li>
+             <li>Jira</li>
+             <li>Trello</li>
+         </ul>
+
+         <h2>Process Automation</h2>
+         <ul>
+             <li>Selenium with Python</li>
+             <li>BeautifulSoup4</li>
+             <li>Scrapy</li>
+         </ul>
+
+         <h2>Testing</h2>
+         <ul>
+             <li>Pytest</li>
+             <li>UnitTest</li>
+         </ul>
+     </div>
+     
+     <div class="column">
+         <h2>Machine Learning</h2>
+         <ul>
+             <li>Pandas</li>
+             <li>NumPy</li>
+             <li>Seaborn</li>
+             <li>Matplotlib</li>
+             <li>TensorFlow</li>
+             <li>Scikit-learn</li>
+             <li>Keras</li>
+             <li>PyTorch</li>
+         </ul>
+
+         <h2>Software Design</h2>
+         <ul>
+             <li>MVC and MVT Patterns</li>
+         </ul>
+     </div>
+ </div>
+
         </div>
       </section>
       <!-- End Skills Section -->
